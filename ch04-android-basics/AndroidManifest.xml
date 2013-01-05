@@ -19,7 +19,19 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>   
+        </activity>         
+        <activity
+            android:name=".LifeCycleTest"
+            android:label="test life cycles"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >          
+        </activity> 
+        <activity
+            android:name=".SingleTouchTest"
+            android:label="Touch Test"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboard|keyboardHidden|orientation" >          
+        </activity> 
     </application>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.WAKE_LOCK" />

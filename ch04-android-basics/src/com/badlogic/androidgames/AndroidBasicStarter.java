@@ -9,7 +9,7 @@ import android.app.ListActivity;
 
 public class AndroidBasicStarter extends ListActivity {
 	
-	String tests[] = { "lifeCycleTest", "SingleTouchTest", "MultiTouchTest", "KeyTest", "AccelerometerTest",
+	String tests[] = { "LifeCycleTest", "SingleTouchTest", "MultiTouchTest", "KeyTest", "AccelerometerTest",
 								"AssetsTest", "ExternalStorageTest", "SoundPoolTest", "MediaPlayerTest", "FullScreenTest",
 								"RenderViewTest", "ShapeTest", "BitmapTest", "FontTest", "SurfaceViewTest"
 					 };
