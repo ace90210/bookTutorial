@@ -32,6 +32,35 @@
             android:screenOrientation="landscape"
             android:configChanges="keyboard|keyboardHidden|orientation" >          
         </activity> 
+        <activity
+            android:name=".MultiTouchTest"
+            android:label="Multi-Touch Test"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboard|keyboardHidden|orientation" >          
+        </activity> 
+        <activity
+            android:name=".KeyTest"
+            android:label="Keys Test"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboard|keyboardHidden|orientation" >          
+        </activity>
+        <activity
+            android:name=".AccelerometerTest"
+            android:label="Accelerometer Test"
+            android:configChanges="keyboard|keyboardHidden|orientation" >          
+        </activity>
+        <activity
+            android:name=".AssetsTest"
+            android:label="assets(file) Test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >          
+        </activity>
+         <activity
+            android:name=".ExternalStorageTest"
+            android:label="External Storage Test"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation" >          
+        </activity>
     </application>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.WAKE_LOCK" />
