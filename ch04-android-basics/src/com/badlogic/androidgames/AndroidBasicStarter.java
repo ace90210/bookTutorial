@@ -21,12 +21,15 @@ public class AndroidBasicStarter extends ListActivity {
 		
 	}
 
+	 
 	@Override
 	public void onListItemClick(ListView list, View view, int position, long id) {
 		super.onListItemClick(list, view, position, id);
 		String testName = tests[position];
 		try
 		{
+			
+			@SuppressWarnings("rawtypes")
 			Class clazz = Class.forName("com.badlogic.androidgames." + testName);
 			Intent intent = new Intent(this, clazz);
 			startActivity(intent);
